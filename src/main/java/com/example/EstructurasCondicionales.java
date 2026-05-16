@@ -53,6 +53,20 @@ public class EstructurasCondicionales {
 
     public static void ejemploSwitchExpression() {
         // TODO
+        string estacion = "verano";
+       string estaciones = switch (estacion) {
+            case 1 -> "Primavera"
+            break;
+            case 2 -> "invierno"
+            break;
+            case 3 -> "otoño" 
+            break;
+            case 4 -> "verano"
+                break;
         
+            default -> "estación invalida"
+                break;
+        }
+    
     }
 }

@@ -15,7 +15,23 @@ public class Operadores {
 
     public static void demostrarIncrementoDecremento() {
         // TODO
-        
+        int numero1 = 30;
+        int numero2 = 40;
+         int totalSuma = numero1 + numero2;
+         int totalResta = numero1 - numero2;
+         int totalMultiplica = numero1 *numero2;
+         int totalDivide = numero1 / numero2;
+         int totalModula= numero1 % numero2; 
+
+System.out.println("suma" + numero1 + "numero2" +"totalSuma");
+System.out.println("suma" + numero1 + "numero2" +"totalResta");
+System.out.println("suma" + numero1 + "numero2" +"totalMultiplica");
+System.out.println("suma" + numero1 + "numero2" +"totalDivide");
+System.out.println("suma" + numero1 + "numero2" +"totalModula");
+
+         numero1++;
+         numero2--;
+
     }
 
     public static void demostrarRelacionales() {
@@ -24,6 +40,7 @@ public class Operadores {
 
     public static void demostrarLogicos() {
         // TODO
+        
     }
 
     public static void demostrarAsignacionCompuesta() {
