@@ -1,18 +1,19 @@
 package com.example;
 
+import javax.print.DocFlavor.STRING;
+
 public class VariablesYConstantes {
     public static void demostrarDeclaracionAsignacion() {        
         // TODO
         int edad = 30;
         double estatura = 1.8;
-        system.out.print(edad);
-        system.out.print(estatura);
+        System.out.println(edad);
+        System.out.println(estatura);
     }
-
     public static void demostrarConvencionesNombres() {
-        // TODO
-        String = nombreEstudiante ;
-        int = edadEstudiante;
+      String nombreEstudiante;
+      int edadEstudiante;
+
     }
 
     public static void demostrarConstantes() {
