@@ -40,7 +40,11 @@ System.out.println("suma" + numero1 + "numero2" +"totalModula");
 
     public static void demostrarLogicos() {
         // TODO
-        
+        int numero1 = 10;
+        int numero2 = 50; 
+        if (numero1<=10 && numero2>=50){
+           System.out.println("accede al subsidio");
+        }
     }
 
     public static void demostrarAsignacionCompuesta() {
